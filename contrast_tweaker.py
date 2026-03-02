@@ -3,7 +3,7 @@ import numpy as np
 import os
 from utils import list_images, save_image
 
-def apply_CLAHE(image, clip_limit=3, tile_grid_size=(4, 4)):
+def apply_CLAHE(image, clip_limit=2, tile_grid_size=(8, 8)):
     # Convert to LAB (luminance + color)
     lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
     l, a, b = cv2.split(lab)
