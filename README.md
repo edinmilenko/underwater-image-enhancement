@@ -8,5 +8,6 @@ Run the installation command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 Verify the weights: Make sure the weights.pt file is present in your project folder before running main.py.
