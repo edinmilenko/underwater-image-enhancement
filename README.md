@@ -11,3 +11,5 @@ pip install -r requirements.txt
 ```
 
 Verify the weights: Make sure the weights.pt file is present in your project folder before running main.py.
+
+For using the program put all the pictures in the input folder (separated in left and right) and run main.py.
