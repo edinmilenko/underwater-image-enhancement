@@ -69,8 +69,8 @@ def waternet(pretrained=True, device=None):
     out_im = postprocess(out_ten)
     ```
     """
-    from waternet.data import transform
-    from waternet.net import WaterNet
+    from underwater_enhancement.waternet.data import transform
+    from underwater_enhancement.waternet.net import WaterNet
 
     model = WaterNet()
 

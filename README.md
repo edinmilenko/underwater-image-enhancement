@@ -1,15 +1,18 @@
-# underwater-image-enhancement
+# Underwater Image Enhancement
 
-**Quick Installation Guide:** Ensure Python is installed (version 3.8 or higher recommended).
-
-Open the terminal (or command prompt) in your project folder `underwater-image-enhancement`.
-
-Run the installation command:
+Underwater image enhancement with WaterNet, sharpening and CLAHE.
 
 ```bash
 pip install -r requirements.txt
+python main.py
 ```
 
-Verify the weights: Make sure the weights.pt file is present in your project folder before running main.py.
+Place images in `data/input/left/` and `data/input/right/`. Results are saved in the matching folders under `data/output/`.
 
-For using the program put all the pictures in the input folder (separated in left and right) and run main.py.
+Code: `underwater_enhancement/` · Weights: `models/weights.pt` · Selected examples: `examples/`.
+
+| Input | Output |
+| :---: | :---: |
+| ![Vegetation: input](examples/input/left_1771928675.jpg) | ![Vegetation: output](examples/output/left_1771928675.jpg) |
+| ![Algae: input](examples/input/left_1771928939.jpg) | ![Algae: output](examples/output/left_1771928939.jpg) |
+| ![Rocks: input](examples/input/right_1771928923.jpg) | ![Rocks: output](examples/output/right_1771928923.jpg) |
